@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu{
+    height: 20vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: rgb(113,113,113);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+}
+
+#content{
+    width: 100%;
+    height: 80vh;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 30px;
+}
