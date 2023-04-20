@@ -18,7 +18,7 @@ function checkUser (){
 
     const url = window.location.href
 
-    if(user.upr != admin && url.includes("admin.html")){
+    if(user.upr != "admin" && url.includes("admin.html")){
         window.location.href = "indwex.html"
     }
 
